@@ -10,6 +10,8 @@ Triglav is a bioinformatics software program written in the C programming langua
 
 Triglav outperforms the standard `vcf-merge` utility found in `vcftools`, which typically gives rise to problems when merging indels with normal variant calling format (vcf) files.  Also, the `vcf-merge` utility only takes the first values (in the INFO field) from the list of merged vcf files, thereby affecting other post-analysis scripts such as `VQSR` for downstream filtering of the data. 
 
+Current work is underway to transition Triglav from an HPC environment to a cloud infrastructure.  Also, an indel-merge feature is currently under development and testing.  
+
 ## Funding
 
 Triglav is an ongoing bioinformatics software project financially supported by the
